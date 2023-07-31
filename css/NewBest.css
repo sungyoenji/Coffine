@@ -1,0 +1,132 @@
+@import url(./common.css);
+
+main .subVisual{
+    width: 100%;
+     height: 370px;
+     background: url(../image/sub_top_visual_menu.jpg)no-repeat center top;
+}
+main .subVisual h2{
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    line-height: 370px;
+}
+main .container{
+    width: 1150px;
+    margin: 0 auto;
+    padding: 60px 0 120px;
+    overflow: hidden;
+}
+main .container .lnb{
+    width: 100px;
+    float: left;
+}
+main .container .lnb li{
+    margin-bottom: 10px;
+}
+main .container .lnb li:last-child{
+    margin-bottom: 0;
+}
+main .container .lnb li a{
+    display: block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    background: #f7f7f7;
+    color: #716b5d;
+    font-size: 15px;
+    font-weight: 700;
+}
+main .container .lnb li.on a{
+    background: #000;
+    color: #fff;
+}
+main .container .lnb li:nth-child(2) a,
+main .container .lnb li:nth-child(4) a{
+    line-height: 18px;
+    height: auto;
+    padding: 32px 0;
+}
+main .container .contents{
+    width : 848px;
+    float: right;
+}
+main .container .contents .tit{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #4b4b4b ;
+    padding-bottom: 25px;
+    box-sizing: border-box;
+    color: #4c4a4b
+}
+main .container .contents .tit a{
+    color: #4c4a4b
+}
+main .container .contents .tit h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+main .container .contents .tit .location{
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+main .container .contents .new_menu{
+    display: flex;
+}
+main .container .contents .new_menu li{
+    width: 50%;
+}
+
+main .container .contents .new_menu li a{
+    display: block;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background: #efefef;
+    line-height: 40px;
+    color: #000;
+    margin: 50px 0 35px 0;
+}
+main .container .contents .new_menu li.on a{
+    color: #fff;
+    background: #692c90;
+}
+
+/* select_product */
+main .container .select_product{
+    background: #f7f7f7;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    line-height: 40px;
+}
+main .container .select_product .select_form select{
+    width: 274px;
+    height:35px;
+    border: 1px solid #e3e3e3;
+    line-height: 35px;
+    text-indent: 10px;
+    vertical-align: middle;
+    outline: none;
+}
+main .container .select_product .select_form .btn_move{
+    width: 50px;
+    height: 35px;
+    background: #3e3e3e;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    vertical-align: middle;
+}
+main .container .select_product .select_form fieldset{
+    border: none;
+}
+main .container .img_product{
+    margin-top: 35px;
+}
+main .container .img_product .tit2{
+    background: #f7f7f7;
+    padding: 24px;
+}
